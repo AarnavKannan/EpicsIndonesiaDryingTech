@@ -351,11 +351,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4007"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -373,7 +374,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4007"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -394,7 +395,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -405,7 +406,7 @@
 					)
 				)
 			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -416,29 +417,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -460,10 +439,10 @@
 					)
 				)
 			)
-			(symbol "1N4007_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -498,7 +477,7 @@
 					)
 				)
 			)
-			(symbol "1N4007_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1274,16 +1253,10 @@
 		(uuid "05aea69c-930b-411f-854f-2fb0dce2f8a2")
 	)
 	(junction
-		(at 133.35 24.13)
+		(at 123.19 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09a40db6-8d50-4f05-8e1a-7f6143728c45")
-	)
-	(junction
-		(at 130.81 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f171c82-8ee7-4a4e-9853-455940b70604")
+		(uuid "086f2515-16a4-423f-8434-8b499ecac1c2")
 	)
 	(junction
 		(at 166.37 40.64)
@@ -1292,22 +1265,22 @@
 		(uuid "0f1781e3-1359-4eb8-846a-096205fc5f56")
 	)
 	(junction
-		(at 168.91 82.55)
+		(at 176.53 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19002835-7d98-401d-9d2a-8d7144a844c1")
-	)
-	(junction
-		(at 125.73 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45850441-d188-40b2-9b3a-c1dee94db59b")
+		(uuid "22f29609-7f06-4dfc-82b2-e5aee5b3c0a8")
 	)
 	(junction
 		(at 176.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48edf50e-d4de-4c3e-b6fa-c5bd1ad69f50")
+		(uuid "343f61c5-e81d-4619-a66b-61df05785f38")
+	)
+	(junction
+		(at 133.35 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47054021-150f-492f-a9fc-1f488d064956")
 	)
 	(junction
 		(at 77.47 83.82)
@@ -1322,10 +1295,10 @@
 		(uuid "5d2d40b1-adb5-424d-bbcf-dc660e060870")
 	)
 	(junction
-		(at 168.91 27.94)
+		(at 130.81 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f26ecf7-e9fe-49bd-8324-2f33eb5d8053")
+		(uuid "6b626194-4b44-40ec-af89-91e82128f8fc")
 	)
 	(junction
 		(at 34.29 83.82)
@@ -1358,16 +1331,16 @@
 		(uuid "87afb854-2bcb-4c66-8295-656c2af1b340")
 	)
 	(junction
-		(at 176.53 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "988fb59a-507a-4201-834d-f000524451cf")
-	)
-	(junction
 		(at 35.56 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5452a79-fe75-4471-8608-ecdd3b0b1b57")
+	)
+	(junction
+		(at 168.91 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97663dd-fbe2-4818-910e-a6e4602655a4")
 	)
 	(junction
 		(at 36.83 181.61)
@@ -1388,10 +1361,16 @@
 		(uuid "ca124aeb-82a7-490b-bb39-c243c79684bb")
 	)
 	(junction
-		(at 123.19 68.58)
+		(at 125.73 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e080b454-5cb2-4e17-aac0-ec94d7448d5d")
+		(uuid "e8d39f36-047b-435e-9123-9ab1836b4f12")
+	)
+	(junction
+		(at 168.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef65701b-dc18-4767-ad39-72d944442ad7")
 	)
 	(wire
 		(pts
@@ -1505,16 +1484,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 21.59) (xy 133.35 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb5ac52-73da-4c88-b61e-4f70c8af52de")
-	)
-	(wire
-		(pts
 			(xy 82.55 119.38) (xy 82.55 129.54)
 		)
 		(stroke
@@ -1555,13 +1524,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 27.94) (xy 168.91 31.75)
+			(xy 125.73 21.59) (xy 125.73 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31ed52aa-42f7-4182-9248-8e9a286fe369")
+		(uuid "39aed4ba-e2d8-463b-b08e-02cdbe860319")
 	)
 	(wire
 		(pts
@@ -1635,6 +1604,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 82.55) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580c2271-2341-4505-9ffb-1bc01160752f")
+	)
+	(wire
+		(pts
 			(xy 259.08 60.96) (xy 237.49 60.96)
 		)
 		(stroke
@@ -1672,6 +1651,16 @@
 			(type default)
 		)
 		(uuid "59a7d33d-1da7-45e3-a4a9-9cfd33a1daf3")
+	)
+	(wire
+		(pts
+			(xy 176.53 27.94) (xy 176.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee28a95-152d-4a25-a809-7f01ac3b8e82")
 	)
 	(wire
 		(pts
@@ -1755,26 +1744,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 24.13) (xy 125.73 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69cfb6da-ebea-4d7f-82c9-3523cb4a0b77")
-	)
-	(wire
-		(pts
-			(xy 130.81 68.58) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c77adb1-cdd4-4f13-8aae-b1ac93661c23")
-	)
-	(wire
-		(pts
 			(xy 168.91 25.4) (xy 168.91 27.94)
 		)
 		(stroke
@@ -1792,16 +1761,6 @@
 			(type default)
 		)
 		(uuid "73da164b-f142-4ebf-97b0-59897e972a26")
-	)
-	(wire
-		(pts
-			(xy 168.91 82.55) (xy 168.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa63cfe-1105-411c-bdfa-654e0f596a21")
 	)
 	(wire
 		(pts
@@ -1825,16 +1784,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 176.53 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6e188b-c631-46ae-b21a-e3176324a6b7")
-	)
-	(wire
-		(pts
 			(xy 100.33 81.28) (xy 113.03 81.28)
 		)
 		(stroke
@@ -1842,6 +1791,16 @@
 			(type default)
 		)
 		(uuid "825b87ff-855c-45b5-8713-9969b7c613d8")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b31e4b-b363-4f3d-b89f-f248cabc2188")
 	)
 	(wire
 		(pts
@@ -1882,6 +1841,16 @@
 			(type default)
 		)
 		(uuid "8e52a493-918f-4606-936c-8a459e4a88da")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9165a8d2-838d-4dfa-b074-d61691d73072")
 	)
 	(wire
 		(pts
@@ -1965,7 +1934,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 133.35 27.94)
+			(xy 168.91 27.94) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcad0151-a417-4af7-972e-759f326989c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 21.59) (xy 133.35 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 27.94) (xy 176.53 31.75)
+			(xy 176.53 25.4) (xy 176.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1992,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "c25b46d6-8e32-49f9-85b1-b790fa7a7547")
-	)
-	(wire
-		(pts
-			(xy 176.53 25.4) (xy 176.53 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5bb0ec2-faa7-41c9-8ce1-833292f81633")
 	)
 	(wire
 		(pts
@@ -2022,16 +1991,6 @@
 			(type default)
 		)
 		(uuid "c94af8da-61da-46da-854a-88b537482549")
-	)
-	(wire
-		(pts
-			(xy 123.19 66.04) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cada6c1c-f2f0-4b69-a194-da2de33d8e62")
 	)
 	(wire
 		(pts
@@ -2085,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 68.58) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deae9809-ed26-49f0-8efa-145fabc45468")
+	)
+	(wire
+		(pts
 			(xy 86.36 22.86) (xy 86.36 33.02)
 		)
 		(stroke
@@ -2115,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 123.19 72.39)
+			(xy 123.19 66.04) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2182,16 +2151,6 @@
 			(type default)
 		)
 		(uuid "f56db50f-d630-4cdc-bc53-6d3c1b96e530")
-	)
-	(wire
-		(pts
-			(xy 125.73 21.59) (xy 125.73 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8604524-d030-42b2-b457-d23d2c4d1b72")
 	)
 	(wire
 		(pts
@@ -2543,6 +2502,85 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 129.54 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "072ccea1-67d5-4ef8-b79c-94d0667489c7")
+		(property "Reference" "D9"
+			(at 129.54 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 129.54 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 129.54 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "263580e6-708a-4318-8f15-b79527519495")
+		)
+		(pin "2"
+			(uuid "546e67dc-4997-4376-bd8d-a9290d900b77")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3030,6 +3068,164 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 172.72 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "159002ea-aa90-4d1f-b4ee-82a9ff6fa4b3")
+		(property "Reference" "D12"
+			(at 172.72 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 172.72 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d81501b9-8dd6-4405-90b6-79e3e8c1351f")
+		)
+		(pin "2"
+			(uuid "94722d7d-52e3-478b-b906-5a5c2031f611")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 127 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15d3490e-42fe-4234-af38-771b825e1f8e")
+		(property "Reference" "D11"
+			(at 127 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 127 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 127 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 127 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 127 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "621ae787-450e-45f0-905b-f72f735525e9")
+		)
+		(pin "2"
+			(uuid "14abec2b-215d-40f5-9c97-ad06874dc2aa")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3920,107 +4116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 172.72 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "328a4a7f-a845-4e85-92b0-482fba13cb9c")
-		(property "Reference" "D12"
-			(at 172.72 80.264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 172.72 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 172.72 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e20fdfde-ffd7-4f03-b05a-557e9a705980")
-		)
-		(pin "1"
-			(uuid "4b55c900-510d-420c-92cd-71060c2d4fcb")
-		)
-		(instances
-			(project "Actual_Indonesia_PCB"
-				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 44.45 0)
 		(unit 1)
@@ -4657,107 +4752,6 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 127 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4637d4e5-e63b-4598-b401-6fe85f117888")
-		(property "Reference" "D9"
-			(at 127 66.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 127 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8705079-0138-445a-9f40-0534a1aa2e19")
-		)
-		(pin "1"
-			(uuid "656ec35e-1579-418c-9d8e-4f427007a1ac")
-		)
-		(instances
-			(project "Actual_Indonesia_PCB"
-				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5972,6 +5966,85 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 172.72 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d1afaf0-4a74-4059-99b1-d89b19782137")
+		(property "Reference" "D10"
+			(at 172.72 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 172.72 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e71297f2-a070-4a33-89c1-169561490cca")
+		)
+		(pin "2"
+			(uuid "3a403043-a498-4e9c-bae2-da229e7cb72e")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7358,107 +7431,6 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 172.72 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9767d01b-2926-47ae-b310-daced561fc61")
-		(property "Reference" "D11"
-			(at 172.72 25.654 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 172.72 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 172.72 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "df41e183-4d1f-49d0-9a9d-3398e192ccf9")
-		)
-		(pin "1"
-			(uuid "6149ea44-2930-4cf6-a7d6-3978075ae71f")
-		)
-		(instances
-			(project "Actual_Indonesia_PCB"
-				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -8971,107 +8943,6 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 129.54 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca349e35-7566-446d-bb8e-bfa7cbc9c9a3")
-		(property "Reference" "D10"
-			(at 129.54 21.844 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 129.54 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 129.54 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 129.54 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 129.54 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 129.54 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7fd815b-1031-4610-abf0-ded73ceaeef1")
-		)
-		(pin "1"
-			(uuid "28b00290-4b67-4d07-b31d-4d022269f570")
-		)
-		(instances
-			(project "Actual_Indonesia_PCB"
-				(path "/47496e5c-34fd-4328-9694-83983cdb3752/58ffd104-3425-4c24-bebf-1eb8ec391341"
-					(reference "D10")
 					(unit 1)
 				)
 			)

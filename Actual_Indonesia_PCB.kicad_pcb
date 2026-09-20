@@ -5311,7 +5311,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D11-A)")
+			(net "Net-(D10-A)")
 			(pinfunction "D_2")
 			(pintype "passive")
 			(uuid "85ad59cb-47e0-4448-bfb7-37cf8b65d401")
@@ -9913,7 +9913,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D9-A)")
+			(net "Net-(D11-A)")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "c5ad144f-0934-43e0-94e4-1a0dbd70c3ce")
@@ -10106,7 +10106,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N5819"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "5e17bd5e-1d73-4dbb-8f4b-34ee75a2dd7b")
@@ -10117,7 +10117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10128,7 +10128,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10178,7 +10178,7 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/ca349e35-7566-446d-bb8e-bfa7cbc9c9a3")
+		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/6d1afaf0-4a74-4059-99b1-d89b19782137")
 		(sheetname "/MOSFETs/")
 		(sheetfile "mosfet.kicad_sch")
 		(units
@@ -10696,6 +10696,282 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "6aa30360-066f-471f-9353-ae3bf1bc1441")
+		(at 176.635 145.135)
+		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
+		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
+		(property "Reference" "D5"
+			(at 5.08 -2.47 0)
+			(layer "F.SilkS")
+			(uuid "214f92f2-db74-4a74-b89a-074b46b5d827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 5.08 2.47 0)
+			(layer "F.Fab")
+			(uuid "fd69ef9e-cca4-45ff-bc0a-4e53cf02db9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dded55dd-2dfa-4f25-a5c3-caff48526080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d721c15-de24-41c9-9537-bb3a5cc7b7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ad29e94-9ce5-4e1b-afcb-3de00497d058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*DO?41*")
+		(path "/05b1c396-c7b9-4a28-944a-b7c865229a2e/94c2ecd5-8bea-4f61-9442-84ca1d9fa7b9")
+		(sheetname "/Power Stuff/")
+		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.34 0)
+			(end 2.36 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b6074b2-74bb-44b1-88ef-549b050c96b3")
+		)
+		(fp_line
+			(start 3.14 -1.47)
+			(end 3.14 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea2c6904-9881-4f50-af1a-7ec57918203f")
+		)
+		(fp_line
+			(start 3.26 -1.47)
+			(end 3.26 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b02a3a29-4dfa-4b7a-a020-63ed2b4cc1b0")
+		)
+		(fp_line
+			(start 3.38 -1.47)
+			(end 3.38 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1de9284c-7c22-4236-ae1c-4701169919f3")
+		)
+		(fp_line
+			(start 8.82 0)
+			(end 7.8 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37aeb0ff-8e70-4eb2-bc12-7dab571e7588")
+		)
+		(fp_rect
+			(start 2.36 -1.47)
+			(end 7.8 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "31bcb906-c96e-41b6-8fb3-4b87e6818d99")
+		)
+		(fp_rect
+			(start -1.35 -1.6)
+			(end 11.51 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "024357da-a254-45d2-a2c9-0b9b854e5c5a")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.48 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6ad3e92-8ae3-4ec5-8a20-f894b7b6cf1f")
+		)
+		(fp_line
+			(start 3.16 -1.35)
+			(end 3.16 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5bca618b-256f-4ef9-99b9-6dca5dcb42f3")
+		)
+		(fp_line
+			(start 3.26 -1.35)
+			(end 3.26 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "261d2bcc-e6cd-48d1-80da-c01e3cb7eeb9")
+		)
+		(fp_line
+			(start 3.36 -1.35)
+			(end 3.36 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5358b6e6-382d-4f75-a90a-b4fc62fe105b")
+		)
+		(fp_line
+			(start 10.16 0)
+			(end 7.68 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3d3547d-5a0a-4571-b206-d3b2e3c120aa")
+		)
+		(fp_rect
+			(start 2.48 -1.35)
+			(end 7.68 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c94c10fc-180b-4ecd-ab1d-37a9ac80c1f5")
+		)
+		(fp_text user "K"
+			(at 0 -2.1 0)
+			(layer "F.SilkS")
+			(uuid "ab3ae715-ea2a-4dda-b34a-dcf5871d5add")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "K"
+			(at 0 -2.1 0)
+			(layer "F.Fab")
+			(uuid "29b6ea2b-fad2-4134-91d9-42cb5b9d37bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 0)
+			(layer "F.Fab")
+			(uuid "13e26dc4-b150-46ef-86a1-80e7b43383bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.113636)
+			(net "Net-(D5-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "cae48de9-5493-4844-83ff-b54d00e70953")
+		)
+		(pad "2" thru_hole circle
+			(at 10.16 0)
+			(size 2.2 2.2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+12V")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "8db8a4a6-2fb2-42d7-9b33-b935e8bd7bab")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12202,7 +12478,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N5819"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "ee53e897-4998-4ed1-9bff-f4565539398b")
@@ -12213,7 +12489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12224,7 +12500,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12274,7 +12550,7 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/4637d4e5-e63b-4598-b401-6fe85f117888")
+		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/072ccea1-67d5-4ef8-b79c-94d0667489c7")
 		(sheetname "/MOSFETs/")
 		(sheetfile "mosfet.kicad_sch")
 		(units
@@ -12504,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N5819"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "6682db35-9e37-4a7c-82d9-33dc19472ad6")
@@ -12515,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12526,7 +12802,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12576,7 +12852,7 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/9767d01b-2926-47ae-b310-daced561fc61")
+		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/15d3490e-42fe-4234-af38-771b825e1f8e")
 		(sheetname "/MOSFETs/")
 		(sheetfile "mosfet.kicad_sch")
 		(units
@@ -15545,7 +15821,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D11-A)")
+			(net "Net-(D10-A)")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "adc28ebe-6db2-4268-824c-d88d03729b30")
@@ -15787,7 +16063,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D9-A)")
+			(net "Net-(D11-A)")
 			(pinfunction "D_2")
 			(pintype "passive")
 			(uuid "45769370-aafe-4350-bcd1-24f33be4ca87")
@@ -17009,7 +17285,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+12V")
+			(net "Net-(D5-K)")
 			(pinfunction "VI_1")
 			(pintype "power_in")
 			(uuid "5581b669-bafa-4bfb-b3db-1deb6afe4b44")
@@ -17348,7 +17624,7 @@
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
+			(net "Net-(D5-K)")
 			(pintype "passive")
 			(uuid "f2f8ebea-c88e-46e7-8b44-75494ced80fb")
 		)
@@ -18272,7 +18548,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N5819"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "b6a44860-5c0c-4323-8bc6-beb1d2b98a4f")
@@ -18283,7 +18559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18294,7 +18570,7 @@
 				)
 			)
 		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18344,7 +18620,7 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/328a4a7f-a845-4e85-92b0-482fba13cb9c")
+		(path "/58ffd104-3425-4c24-bebf-1eb8ec391341/159002ea-aa90-4d1f-b4ee-82a9ff6fa4b3")
 		(sheetname "/MOSFETs/")
 		(sheetfile "mosfet.kicad_sch")
 		(units
@@ -20412,7 +20688,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D10-A)")
+			(net "Net-(D9-A)")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "725bd262-588f-44cd-91c7-1e69ed27b653")
@@ -20654,7 +20930,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D10-A)")
+			(net "Net-(D9-A)")
 			(pinfunction "D_2")
 			(pintype "passive")
 			(uuid "389f8776-cc64-4786-b5c0-df4003252ff9")
