@@ -3647,6 +3647,7 @@
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 106.68 73.66 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3654,10 +3655,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d78ef6aa-d91b-4775-9ba6-5d4495ed8cf3")
 		(property "Reference" "D15"
-			(at 106.3625 67.31 0)
+			(at 106.9975 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 106.3625 69.85 0)
+			(at 106.9975 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

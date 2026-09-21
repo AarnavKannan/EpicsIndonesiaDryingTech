@@ -1374,6 +1374,16 @@
 		)
 		(uuid "ac51c5ec-3028-414e-b137-0eeb926aae4d")
 	)
+	(text "One connector for each device pair (fans/heaters/heating pads). These will be wired through the fuse block"
+		(exclude_from_sim no)
+		(at 71.882 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad059bbb-0fbd-4d3e-b9d9-15b8eb284c30")
+	)
 	(text "Steps down the voltage from 12v to 5v"
 		(exclude_from_sim no)
 		(at 208.788 74.422 0)
@@ -1385,10 +1395,28 @@
 		(uuid "f6312ee5-35d2-4229-af28-81e9fc60b7fb")
 	)
 	(junction
+		(at 60.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07639782-15bf-4e4f-80b5-7a2485091d10")
+	)
+	(junction
+		(at 60.96 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19557674-7dc1-4396-b902-c6ea3423549f")
+	)
+	(junction
 		(at 171.45 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23e0e9d0-f503-4822-a2a6-d75accc9e023")
+	)
+	(junction
+		(at 64.77 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a9ff063-05e6-4a27-afa7-385233a530f0")
 	)
 	(junction
 		(at 64.77 71.12)
@@ -1409,6 +1437,12 @@
 		(uuid "87a4d1aa-e0ca-4ade-80b0-1541c038b301")
 	)
 	(junction
+		(at 64.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a445d03f-174f-432c-b9bb-b5522f48349e")
+	)
+	(junction
 		(at 60.96 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1421,10 +1455,42 @@
 		(uuid "d1415d46-084c-4069-bbd5-1c7303d74eab")
 	)
 	(junction
+		(at 60.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ea756f-49b7-457d-87dd-6fb68338ab84")
+	)
+	(junction
 		(at 149.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d55906d1-bb95-4a0c-b123-ea31c7bbd6db")
+	)
+	(junction
+		(at 60.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44db891-d56a-4cbe-84cf-2269d952e252")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e26f60-8e69-43ec-833d-4dcfb489d25c")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cca713-4bc5-4bf4-b09e-c9662e2c8072")
 	)
 	(wire
 		(pts
@@ -1458,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 99.06) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208b5e17-a5dd-40da-9e7f-119b84c9894f")
+	)
+	(wire
+		(pts
 			(xy 69.85 68.58) (xy 74.93 68.58)
 		)
 		(stroke
@@ -1465,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "21d922d4-f8eb-4d33-82ec-10d6e58dd6ae")
+	)
+	(wire
+		(pts
+			(xy 69.85 125.73) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a30dc65-7a19-47aa-b9cc-42e5b4612789")
 	)
 	(wire
 		(pts
@@ -1488,6 +1574,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 123.19) (xy 72.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422de97f-c34b-4349-ad50-9c9b2b33e7fd")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46238a98-6b5b-412e-8ea9-9e304bc9dc35")
+	)
+	(wire
+		(pts
 			(xy 72.39 73.66) (xy 74.93 73.66)
 		)
 		(stroke
@@ -1508,6 +1614,46 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 96.52) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b73537-d7aa-46b9-9687-341a8945843d")
+	)
+	(wire
+		(pts
+			(xy 60.96 138.43) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658d16f4-fcd8-4c93-bf76-04c8e2053c95")
+	)
+	(wire
+		(pts
+			(xy 64.77 123.19) (xy 64.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b046dc3-5696-4449-b750-fef6f3fc5b8a")
+	)
+	(wire
+		(pts
+			(xy 64.77 138.43) (xy 60.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704dc7e2-212d-4498-9eea-326f6664e33e")
+	)
+	(wire
+		(pts
 			(xy 171.45 69.85) (xy 176.53 69.85)
 		)
 		(stroke
@@ -1515,6 +1661,66 @@
 			(type default)
 		)
 		(uuid "70bf6105-87c9-4cc7-a127-4cdbdc7f894e")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fe8fd6-bd04-456c-8186-231d55f85ce7")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e1ee68-150e-49df-bf8c-335f6a0537f3")
+	)
+	(wire
+		(pts
+			(xy 69.85 99.06) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850ac1dc-c3fd-438f-ba4d-c9ace6c032f1")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867bdd7b-dbb5-4e57-ac78-c9f8d2f20742")
+	)
+	(wire
+		(pts
+			(xy 72.39 123.19) (xy 72.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8801227e-a12f-470d-9133-5ac52f454850")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1e5067-92c3-45b0-bded-585a8dbaffef")
 	)
 	(wire
 		(pts
@@ -1548,6 +1754,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 93.98) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9828070-4496-4bd7-95b5-0a11d5fb9105")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 60.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c43d1d-bff7-459a-bb50-dcb0c18e965b")
+	)
+	(wire
+		(pts
 			(xy 69.85 73.66) (xy 69.85 68.58)
 		)
 		(stroke
@@ -1555,6 +1781,16 @@
 			(type default)
 		)
 		(uuid "bc960632-8fae-4cca-8364-806dada4bb0a")
+	)
+	(wire
+		(pts
+			(xy 64.77 123.19) (xy 60.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1d08be-165e-4984-a3ae-141a06c94420")
 	)
 	(wire
 		(pts
@@ -1578,6 +1814,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 99.06) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95b3076-bb91-466a-95aa-9ab3526a5535")
+	)
+	(wire
+		(pts
+			(xy 69.85 125.73) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9eed3a3-34ab-4479-9842-9189c95a5dad")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 60.96 86.36)
 		)
 		(stroke
@@ -1595,6 +1851,95 @@
 			(type default)
 		)
 		(uuid "efd54c48-7311-41c6-b1e9-f59d5abf5e8a")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc011b1-f251-4e3a-bbda-98a1aa4acd87")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d764fc-454b-41e1-8b13-bfcd7194a66b")
+		(property "Reference" "#PWR013"
+			(at 54.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0332e80-ac8a-4f36-bb58-6adf6e852fe5")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1760,7 +2105,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0bdd83a1-3ada-4134-89dd-cca21c14259d")
 		(property "Reference" "#PWR010"
 			(at 64.77 71.12 0)
@@ -1773,15 +2117,14 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 57.15 71.1199 90)
+		(property "Value" "+12V_FANS"
+			(at 51.816 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1905,6 +2248,162 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 60.96 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cedf068-f253-46ce-9ca7-94cdb047c3f2")
+		(property "Reference" "#PWR014"
+			(at 64.77 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V_PADS"
+			(at 57.15 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4796a9b-e686-475f-ad3b-5d55ee12fadc")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34a29638-78b5-4e1a-ad11-53fd19c37677")
+		(property "Reference" "#FLG04"
+			(at 60.96 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52cd5c94-bbaf-479c-8999-237a612e5fbe")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2073,6 +2572,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 60.96 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7f631f-a403-4a09-b7f4-b7d04a3cd334")
+		(property "Reference" "#PWR012"
+			(at 64.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V_HEATERS"
+			(at 57.15 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c0ce02f-e955-4ef8-8ec3-2284824144d2")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53311d18-5b6b-474f-a6df-85fafd0b26ce")
+		(property "Reference" "#FLG05"
+			(at 60.96 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc2b17d5-45af-4762-a34a-167d50cd3a6b")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 80.01 73.66 180)
 		(unit 1)
@@ -2154,6 +2809,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "694e952f-46a4-4d1d-be64-e4a3e4e8263a")
+		(property "Reference" "#PWR015"
+			(at 54.61 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e3ef3ee-b543-4c2b-8b4a-e49bcafa53d5")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 64.77 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8aa5af26-fc03-4897-84d8-ee1571cd4032")
+		(property "Reference" "C10"
+			(at 65.786 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 59.69 140.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 65.7352 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 64.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9efbf495-478e-46c8-a6f5-352f8de3a64d")
+		)
+		(pin "2"
+			(uuid "d1ec5c0a-6b3d-4fb1-943e-d81c999a25af")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819")
 		(at 142.24 69.85 180)
 		(unit 1)
@@ -2228,6 +3043,87 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 80.01 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b01d79d5-0814-4909-9a14-fd42c0a388fd")
+		(property "Reference" "J4"
+			(at 81.28 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 77.978 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9044ca4c-3c43-44eb-9348-1cf84102c9e4")
+		)
+		(pin "2"
+			(uuid "cf5a2430-b522-435e-8b5d-64c47a9a7b20")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2543,6 +3439,87 @@
 			(project "Actual_Indonesia_PCB"
 				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 64.77 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9e8cca8-62c5-4d28-8a30-112b0240a39d")
+		(property "Reference" "C8"
+			(at 65.786 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 59.69 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 65.7352 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 64.77 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3d3e9f6-5b72-46a7-8ddf-8df1f1422a05")
+		)
+		(pin "2"
+			(uuid "cd3c2be6-d161-46a9-a7b9-3e2c7adb43d3")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2866,6 +3843,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 80.01 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5b2e284-bead-4745-b486-2b2f85765338")
+		(property "Reference" "J3"
+			(at 81.28 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 77.978 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43af631c-4b55-4e19-96cd-69b2d80397f4")
+		)
+		(pin "2"
+			(uuid "7c63aaaa-f2fb-4145-8a28-7514c52686ea")
+		)
+		(instances
+			(project "Actual_Indonesia_PCB"
+				(path "/47496e5c-34fd-4328-9694-83983cdb3752/05b1c396-c7b9-4a28-944a-b7c865229a2e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 138.43 69.85 90)
 		(unit 1)
@@ -2875,7 +3933,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe4deb5a-e2e3-479d-8629-6aa779810d63")
 		(property "Reference" "#PWR07"
 			(at 142.24 69.85 0)
@@ -2888,15 +3945,14 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 134.62 69.8499 90)
+		(property "Value" "+12V_FANS"
+			(at 129.032 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
